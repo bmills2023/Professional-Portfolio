@@ -1,4 +1,7 @@
-To run application:
+To install dependencies:
+npm install
+
+To run application locally:
 npm run dev
 
 To build production code:
