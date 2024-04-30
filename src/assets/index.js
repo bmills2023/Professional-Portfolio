@@ -32,6 +32,7 @@ import hope_logo from "./company/hope_logo.png"
 import lenz_logo from "./company/lenz_logo.png"
 import reuzzi_logo from "./company/reuzzi_logo.png"
 import lt_logo from "./company/lt_logo.png"
+import rtx_logo from "./company/rtx_logo.png"
 import gdmdirect from "./gdmdirect.png"
 import localtreasure from "./localtreasure.png"
 import reuzzi from "./reuzzi.png"
@@ -44,6 +45,7 @@ export {
   hope_logo,
   lenz_logo,
   lt_logo,
+  rtx_logo,
   logo,
   backend,
   creator,

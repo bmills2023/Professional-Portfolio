@@ -1,5 +1,5 @@
 import React from "react";
-import Tilt from "react-tilt";
+import {Tilt} from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        As a cutting-edge 2023 graduate armed with a robust computer science prowess and an unwavering zeal for groundbreaking technology, I am fervently pursuing an exhilarating expedition as a full stack developer. I yearn for a role that not only harnesses my skill set but also provides an unbounded platform for perpetual learning and unparalleled growth as a consummate professional. My repertoire boasts a kaleidoscope of programming languages and frameworks, encompassing the likes of Java, Python, C++, and React, empowering me to seamlessly navigate the realms of both front-end and back-end development. With an insatiable hunger for knowledge, I adapt at warp speed, poised to tackle novel trials head-on, and poised to make a resounding impact within a triumphant, dynamic collective.
+        As a cutting-edge 2023 graduate armed with a robust computer science prowess and an unwavering zeal for groundbreaking technology, I am fervently pursuing an exhilarating expedition as a software developer. 
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

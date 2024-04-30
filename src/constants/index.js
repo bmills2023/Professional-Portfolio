@@ -25,6 +25,7 @@ import {
   hope_logo,
   reuzzi_logo,
   lt_logo,
+  rtx_logo,
   shopify,
   carrent,
   jobit,
@@ -52,11 +53,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full Stack Web Developer",
+    title: "Full Stack Web/App Developer",
     icon: web,
   },
   {
-    title: "Mobile Application Developer",
+    title: "Application Developer",
     icon: mobile,
   },
   {
@@ -91,10 +92,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -102,14 +99,6 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  // {
-  //   name: "MongoDB",
-  //   icon: mongodb,
-  // },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
   {
     name: "git",
     icon: git,
@@ -117,10 +106,6 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
   {
     name: "nextjs",
@@ -159,9 +144,8 @@ const experiences = [
     date: "August 2021 - December 2021",
     points: [
       "Took part in the redesign of the company's website, resulting in a modern, user-friendly experience",
-      "Collaborated with members of the HOPe community to develop innovative marketing tools and promote the organization's mission of “providing children and adults with disabilities and their families with a life-changing path to greater independence: a nurturing community, groundbreaking programs, meaningful opportunities, and passionate advocacy that free them to grow and thrive.",
-      "Developed informational materials and digital go-to-market initiatives to promote HOPe's upcoming fundraisers",
-      "Directed, filmed, and edited promotional content using Adobe Photo Shop and Premiere Pro for use on company marketing platforms",
+      "Developed informational materials and digital go-to-market initiatives to promote HOPe’s upcoming fundraisers",
+      "Directed, filmed, and edited promotional content using Adobe Photo Shop and Premiere Pro for use on company marketing platforms"
     ],
   },
   {
@@ -171,12 +155,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "December 2021 - May 2022",
     points: [
-      "Developed a full-stack application for web and app using Python and various front-end technologies such as React and Flutter/Dart",
-      "Integrated Keycloak with existing systems, enabling single sign-on (SSO) functionality and centralized user management",
-      "Improved the performance and scalability of the application using multi-threading",
+      "Developed a full-stack QR code management/tracking application for web and mobile app using React, Flutter/Dart, Python/Flask, and MySQL",
       "Worked within Agile/SCRUM development process and used Pivotal Tracker to keep track of progress and prioritize tasks",
-      "Directed, filmed, edited, and managed promotional content for campaign marketing initiatives",
-      "Analyzed and synthesized data from user interviews to identify trends and pain points",
+      "Improved the performance and scalability of the application by optimizing backend routing algorithms",
+      "Directed, filmed, edited, and managed promotional content for campaign marketing initiatives"
     ],
   },
   {
@@ -186,11 +168,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "August 2022 - Dec 2022",
     points: [
-      "Developed a multithreaded full-stack application for web and app using React and Node.js",
-      "Utilized Docker to containerize and deploy applications, providing an efficient and consistent runtime environment across multiple platforms.",
+      "Developed a full-stack medical documentation application for web and app using React, Node.js, and MySQL",
       "Ensured best practices for securing personal medical information that adhered to HIPPA guidelines",
       "Implemented a CI/CD pipeline using Jenkins to automatically build, test, and deploy code changes",
-      "Utilized Jest to write and maintain comprehensive unit tests for the application codebase. Created coverage reports to identify areas of the codebase that were not adequately tested and worked to improve coverage over time",
+      "Utilized Jest to write and maintain comprehensive unit tests for the application codebase. Created coverage reports to identify areas of the codebase that were not adequately tested and worked to improve coverage over time"
     ],
   },
 
@@ -201,10 +182,25 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Leading and mentoring a team of skilled developers to successfully accomplish tasks, while concurrently overseeing the design and architecture of expansive, enterprise-level systems through daily standups and code reviews",
-      "Utilizing modern tech stack: React/Redux, Typescript, NextJS, React Native/Expo, Tailwind CSS, and Python/Django",
-      "Managed and maintained Linux servers, including user management, file system administration, and package management",
-      "Developed and maintained HBase data models for efficient storage and retrieval of large-scale data sets",
+      "Leading and mentoring a team of developers to successfully accomplish tasks, while concurrently architecting and implementing new features of the software",
+      "Full integrated various AWS services to improve deployment of company systems",
+      "Engineered a versatile website and mobile application utilizing a range of technologies, including but not limited to React/NextJS, React Native/Expo, Tailwind CSS, Python/Django, and PostgreSQL",
+      "Managing and maintaining Linux servers, including user management, file system administration, and package management",
+      "Led the comprehensive software lifecycle, spanning from conceptualization and design to meticulous implementation and successful public deployment of the software solutions"
+    ],
+  },
+
+  {
+    title: "Software Engineer",
+    company_name: "Raytheon",
+    icon: rtx_logo,
+    iconBg: "#E6DEDD",
+    date: "June 2023 - Present",
+    points: [
+      "Developing, debugging, and maintaining C++, Python, and MATLAB code for radar systems, using multithreading to improve performance",
+      "Implementing continuous integration and delivery (CI/CD) pipelines using Jenkins and ClearCase for version control management, all within a Linux environment",
+      "Working with a team of engineers in AGILE environment to deliver high-quality software on time and within budget",
+      "Utilizing MATLAB for data visualization and simulations"
     ],
   },
 ];
@@ -298,7 +294,7 @@ const projects = [
       },
     ],
     image: localtreasure,
-    source_code_link: "https://localtreasureapp.com/",
+    source_code_link: "https://local-treasure.com/",
   },
 ];
 
